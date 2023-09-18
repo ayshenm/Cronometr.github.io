@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+       <p class="title" id="title">00:00:00</p>
+      <div class="">
+        <button onclick="counterRun()" class="btn"id="btn">Start</button>
+        <button onclick="scaneRun()" class="btn"id="btn1">Scane</button>
+        <button onclick="reset()" class="btn"id="btn2">Reset</button>
+      </div>
+      <div id="text" style="max-height: 300px; overflow-y: scroll; margin-top: 20px; width: 100%; display: none;">
+        <h4 id="h4"></h4>
+      </div>
+    </div> 
+
+    <script src="./main.js"></script>
+  </body>
+</html>
